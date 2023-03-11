@@ -3,7 +3,7 @@ import { searchPlugin } from "@vuepress/plugin-search";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/My_blog/",
+  base: "/My-blog/",
   locales: {
     "/": {
       lang: "zh-CN",
