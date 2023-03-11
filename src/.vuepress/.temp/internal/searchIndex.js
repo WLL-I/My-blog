@@ -7,6 +7,42 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Grid布局",
+    "headers": [
+      {
+        "level": 2,
+        "title": "间距",
+        "slug": "间距",
+        "link": "#间距",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "行列",
+        "slug": "行列",
+        "link": "#行列",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "主轴分布",
+        "slug": "主轴分布",
+        "link": "#主轴分布",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "侧轴分布,",
+        "slug": "侧轴分布",
+        "link": "#侧轴分布",
+        "children": []
+      }
+    ],
+    "path": "/zh/css/Grid%E5%B8%83%E5%B1%80.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "flex布局",
     "headers": [
       {
@@ -138,42 +174,6 @@ export const searchIndex = [
       }
     ],
     "path": "/zh/css/flex%E5%B8%83%E5%B1%80.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Grid布局",
-    "headers": [
-      {
-        "level": 2,
-        "title": "间距",
-        "slug": "间距",
-        "link": "#间距",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "行列",
-        "slug": "行列",
-        "link": "#行列",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "主轴分布",
-        "slug": "主轴分布",
-        "link": "#主轴分布",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "侧轴分布,",
-        "slug": "侧轴分布",
-        "link": "#侧轴分布",
-        "children": []
-      }
-    ],
-    "path": "/zh/css/Grid%E5%B8%83%E5%B1%80.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -621,16 +621,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}

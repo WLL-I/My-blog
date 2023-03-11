@@ -1,9 +1,9 @@
-import { useStyleTag } from "C:/Users/WLL/wang_lili_blog/node_modules/vuepress-plugin-components/lib/client/composables/index.js";
+import { useStyleTag } from "/Users/wanglili/Desktop/My-blog/node_modules/vuepress-plugin-components/lib/client/composables/index.js";
 import { h } from "vue";
 import { defineClientConfig } from "@vuepress/client";
-import Badge from "C:/Users/WLL/wang_lili_blog/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import FontIcon from "C:/Users/WLL/wang_lili_blog/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import BackToTop from "C:/Users/WLL/wang_lili_blog/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
+import Badge from "/Users/wanglili/Desktop/My-blog/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import FontIcon from "/Users/wanglili/Desktop/My-blog/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import BackToTop from "/Users/wanglili/Desktop/My-blog/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
 
 
 export default defineClientConfig({
